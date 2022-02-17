@@ -1,0 +1,19 @@
+[package]
+name = "sentry"
+version = "0.1.0"
+authors = ["miten"]
+edition = "2021"
+description = "yet another multi-purpose discord bot"
+readme = "README.md"
+repository = "https://github.com/m1ten/sentry-rs"
+license = "Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serenity = { version = "0.10.9", default-features = false, features = ["client", "gateway", "rustls_backend", "model", "unstable_discord_api", "cache"] }
+tokio = { version = "1.15.0", features = ["macros", "rt-multi-thread"] }
+dotenv = "0.15.0" 
+evalexpr = "7.0.0"
+bracket-random = "0.8.2"
+regex = "1.5"
