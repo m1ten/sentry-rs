@@ -11,7 +11,7 @@ yet another multi-purpose discord bot
 Download the latest binary from [releases](https://github.com/m1ten/sentry-rs/releases)
 
 ```sh
-# Unix-Like: Give execution permission to sentry and run
+# POSIX: Give execution permission to sentry and run
 $ chmod +x sentry && ./sentry
 
 # Windows: Run the exe
